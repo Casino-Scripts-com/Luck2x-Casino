@@ -1,0 +1,9 @@
+.slider__control, .slider__control:hover, .slider__control:focus, .slider__control:visited {
+  user-select: none;
+  background: none;
+}
+@media(max-width: 990px) {
+  .slider__control, .slider__indicators {
+    display: none;
+  }
+}

@@ -1,0 +1,131 @@
+
+.profile-content {
+    padding: 25px;
+    background: #27283d;
+    border-radius: 6px;
+    height: 100%;
+    width: 100%;
+}
+
+.profile-block {
+}
+
+.info-block {
+    padding: 25px;
+    border: 2px dashed #315ec9;
+    background: #27283d;
+    border-radius: 6px;
+    float: left;
+    width: 49%;
+}
+
+.profile {
+    width: 49%;
+    justify-content: flex-start;
+    min-height: 90px;
+}
+
+.statistics-block {
+    padding: 25px;
+    border: 2px dashed #315ec9;
+    background: #27283d;
+    border-radius: 6px;
+    float: left;
+    width: 49%;
+    margin-bottom: 15px;
+}
+
+.settings {
+    float: right;
+    position: relative;
+    left: 29%;
+}
+
+.lvl-block {
+    padding: 25px;
+    border: 2px dashed #315ec9;
+    background: #27283d;
+    border-radius: 6px;
+    width: 49%;
+    float: right;
+    margin-bottom: 15px;
+}
+
+.buttonRand {
+    background: linear-gradient(144deg, #0050FF, #0528AB);
+    width: 180px;
+    padding: 11px 13px 11px 13px;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 35px!important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+.modal-body {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+
+.flex {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    text-align: left;
+    font-weight: bold;
+    width: 250%;
+    border-radius: 25px;
+    background: #1b273f;
+    border-style: none;
+    padding: 14px 17px;
+    font-family: Montserrat;
+    color: #fff;
+    outline: none;
+    border: 1px solid #101829;
+}
+
+.flexNot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wheelButton {
+    background: linear-gradient(144deg, #0050FF, #0528AB);
+    border-radius: 16px;
+    width: 100%!important;
+    font-size: 16px!important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+.button {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    padding: 5px 18px;
+    width: 48%;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+    font-family: Geometria;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 28px;
+    height: 48px;
+}

@@ -1,0 +1,30 @@
+/*body:before {
+  content: '';
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 16px;
+  background: url(../img/winter/snow.png) repeat-x left;
+  z-index: 9999999999;
+}
+.snowman {
+    background: transparent url(../img/winter/snow/snowmen.png) no-repeat scroll right top / 130px auto;
+    bottom: 0;
+    display: none;
+    height: 138px;
+    position: fixed;
+    right: 380px;
+    width: 100px;
+    z-index: 999;
+    transition: all 0.5s;
+}
+.snow-layer {
+    background: transparent url(../img/winter/snow/snow.png) repeat-x scroll center top / auto 20px;
+    bottom: 0;
+    display: block;
+    height: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}*/

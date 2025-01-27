@@ -1,0 +1,255 @@
+.head-game {
+    background: #21203a;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 30px;
+    top: 0;
+    position: relative;
+}
+
+.head-game .game-name {
+    font-weight: 700;
+    color: #686b98;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.head-game ul {
+    display: inline-block;
+    font-weight: 700;
+}
+
+.head-game ul li {
+    display: inline-block;
+}
+
+.head-game ul li a {
+    color: #686b98;
+    font-size: 14px;
+    padding: 0 15px;
+    font-weight: 700;
+    transition: .2s linear;
+}
+
+.head-game ul li a:hover {
+    text-decoration: underline;
+    color: #686b98;
+}
+
+.head-game .howto {
+    position: absolute;
+    color: #686b98;
+    right: 30px;
+    top: 0;
+    cursor: pointer;
+    transition: .2s linear;
+    font-weight: 700;
+}
+
+.head-game .howto i {
+    margin: 0 10px;
+}
+
+.head-game .howto:hover {
+    text-decoration: unset;
+    color: #686b98;
+}
+.cont-a {
+    padding: 25px 45px;
+    font-weight: 700;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+.cont-b {
+    font-weight: 700;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+.rooms {
+    text-align: center;
+}
+.rooms .room-selector {
+    font-size: 0;
+    padding: 15px;
+}
+
+.rooms .room {
+    display: inline-block;
+    background: #21203a;
+    border: 2px solid #272a4f;
+    vertical-align: middle;
+    /* border-left: 2px solid #243556; */
+    /* border-right: 2px solid #243556; */
+    cursor: pointer;
+}
+
+.rooms .room:first-child {
+    border-radius: 50px 0 0 50px;
+    border-left: unset;
+}
+
+.rooms .room:last-child {
+    border-radius: 0 50px 50px 0;
+}
+
+.rooms .room:not(.active):last-child {
+    border-right: unset;
+}
+
+.rooms .room .room-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #686b98;
+}
+
+.rooms .room .room-bet {
+    font-size: 20px;
+    color: #686b98;
+}
+
+.rooms .room .room-bank {
+    font-size: 14px;
+    color: #686b98;
+}
+
+.rooms .room a {
+    padding: 10px 45px;
+    display: block;
+}
+
+.rooms .room.active {
+    border: double 2px transparent;
+    background-image: linear-gradient(#21203a, #2b2a48), linear-gradient(160deg, #058AFF, #a60cff);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.top.active {display: block;}
+.top {
+	background: #21203a;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 60px;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.16);
+    display: none;
+}
+.top table {
+    text-align: center;
+    width: 100%;
+    border-collapse: inherit;
+    border-spacing: 0
+}
+
+.top table thead {
+    font-size: 15px
+}
+
+.top table thead th {
+    padding: 5px;
+    border-bottom: 3px solid #dcdde0
+}
+
+.top table tbody tr:nth-child(1) {
+    background-color: rgba(255,215,0,.5);
+}
+
+.top table tbody tr:nth-child(2) {
+    background-color: rgba(192,192,192,.5)
+}
+
+.top table tbody tr:nth-child(3) {
+    background-color: rgba(205,127,50,.3)
+}
+
+.top table tbody tr td {
+    color: #dadada;
+    padding: 5px;
+    border-bottom: 1px solid #dcdde0;
+}
+
+.second-title {
+    color: #686b98;
+    text-align: center;
+    font-size: 24px;
+    padding: 15px 0;
+}
+
+.table-new {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    padding: 15px 0;
+}
+
+.head-me {
+    width: calc(100% + 16px);
+    margin-left: -8px;
+}
+
+.head-me {
+    background-color: rgb(36,35,35, .35);
+    height: 49px;
+    line-height: 49px;
+    padding: 0 30px;
+    top: 0;
+    position: relative;
+}
+
+.cont-m {
+    padding: 25px 15px;
+    font-weight: 700;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+.cont-m .secod-title {
+    margin-top: 10px;
+    padding-bottom: 7px;
+}
+
+.secod-title {
+    color: #cdcdcd;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 100;
+    padding: 0 0 15px 0;
+}
+
+.top.active {
+    display: block;
+}
+
+.top {
+    background: rgba(35,35,35,.35);
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 60px;
+    -webkit-box-shadow: 0 0 13px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.16);
+    display: none;
+    color: #fff;
+    font-weight: 400;
+}
+
+.top table {
+    text-align: center;
+    width: 100%;
+    border-collapse: inherit;
+    border-spacing: 0;
+}
+
+.top table thead {
+    font-size: 15px;
+}
+
+.top table thead th {
+    padding: 5px;
+    border-bottom: 1px solid #dcdde0;
+}

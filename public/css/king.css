@@ -1,0 +1,120 @@
+.game_King {
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 0px 15px 15px -1px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-flex: auto;
+    flex: auto;
+    min-height: 400px;
+    background-position: top;
+}
+.game_King::after {
+	content: "";
+	background: url('/img/mountain.jpg');
+	opacity: 0.2;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;   
+}
+.king_avatar {
+	transition: 0.8s;
+	margin: auto;
+	display: block;
+	min-width: 148px;
+	min-height: 148px;
+	border-radius: 999px;
+	border: 6px solid #CCC;
+	padding: 5px;
+}
+.king_avatar img {
+	display: block;
+	margin: auto;
+	width: 122px;
+	height: 122px;
+	border-radius: 999px;
+	margin-top: 2px;
+}
+.king_bets {
+	min-width: auto;
+    position: absolute;
+    margin: auto;
+    bottom: 16px;
+}
+.king_bets img {
+	display: inline-block;
+	width: 30px;
+	margin-right: -1rem;
+	border-radius: 999px;
+	box-shadow: -1.5px 0px 0px 0px #CCC;
+}
+.king_bets .currentBet {
+	display: inline-block;
+	width: 30px;
+	margin-right: 10px;
+	border-radius: 999px;
+	box-shadow: -1.5px 0px 0px 0px #CCC;
+}
+.king_progress {
+	user-select: none;
+	flex: none;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-between;
+    left: 0;
+    top: 0;
+    padding: 20px 35px;
+    font-size: 12px;
+    line-height: 25px;
+}
+.king_bank, .king_timer {
+	font-size: 30px;
+	font-weight: 700;
+}
+@media(min-width: 990px) {
+	.king_progress {
+		padding: 40px 60px;
+	}
+}
+
+.king_avatar.winner {
+	transform: rotate(0deg) scale(1);
+    animation: winner 0.8s ease-out forwards;
+    transition: 0.8s;
+}
+
+@keyframes winner {
+    from {
+        transform: rotate(0deg) scale(1);
+    }
+
+    to {
+        transform: rotate(360deg) scale(1.2);
+    }
+}
+
+.king_avatar.newBet {
+    animation: newBet 0.2s ease-out forwards;
+    transition: 0.2s;
+}
+
+@keyframes newBet {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
