@@ -79,5 +79,4 @@ With Luck2x, you can transform your love for gambling into a highly profitable e
 
 Transform your love for gambling into a thrilling and profitable experience with Luck2x. Dive into the world of endless possibilities and start winning today!
 
-> Please note that this is only a free versino which is not from us if you want to have real websites then you can contact us via telegram or email
-
+> Copyright © 2025 Casino-Scripts.com. All rights reserved.All other trademarks, screenshots, logos and copyrights are the property of Casino-Scripts.com.
